@@ -41,10 +41,10 @@ type
 var
   Form1: TForm1;
 
-  down : boolean = False;
-  img_x, img_y : word;
-  CountClicks : Byte = 0;
-  TimerNow, TimerStart : Cardinal;
+  down : boolean = False;            // нажата ли клавиша
+  img_x, img_y : word;               // координаты клика
+  CountClicks : Byte = 0;            // количество кликов
+  TimerNow, TimerStart : Cardinal;   // текущее время и время старта игры
 
 implementation
 
